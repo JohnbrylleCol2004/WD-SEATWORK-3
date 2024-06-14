@@ -3,6 +3,7 @@
     padding: 0;
 }
 
-.body{
-     background-image: url(/assets/img/flower.jpg);
+body{
+    background-image: url(../img/flower.jpg);
+    background-size: cover;
 }
