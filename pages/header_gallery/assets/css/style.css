@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body{
@@ -17,15 +16,15 @@ header.sign-1{
     justify-content: space-between;
     align-items: center;
     background-color: lightcyan;
-    & > img.logo-1{
+      &  > img.logo-1{
         height: 50px;
         margin-left: 1rem;
     }
-    & >  navigation{
+        &  >  navigation{
         display: flex;
         align-items: center;
         gap: 1rem;
-        & > a{
+           & > a{
             text-decoration: none;
             color: black;
             font-size: 1.5rem;
