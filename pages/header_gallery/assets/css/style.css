@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,20 +12,20 @@ body{
     overflow-x: hidden;
     padding: 10px;
 }
-header.sign-1{
+header.sign1{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: lightcyan;
-      &  > img.logo-1{
+      &.img.logo-1{
         height: 50px;
         margin-left: 1rem;
     }
-        &  >  navigation{
+      & > navigation{
         display: flex;
         align-items: center;
         gap: 1rem;
-           & > a{
+           &:a{
             text-decoration: none;
             color: black;
             font-size: 1.5rem;
@@ -33,4 +34,4 @@ header.sign-1{
             border-radius: 0.5rem;
         }
     }
-    }
+}
