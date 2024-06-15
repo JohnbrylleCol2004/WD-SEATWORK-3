@@ -8,7 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 200vh;
-    overflow-x: hidden;
+    overflow: hidden;
     padding: 10px;
 }
 header.sign1{
@@ -16,3 +16,19 @@ header.sign1{
     justify-content: space-between;
     align-items: center;
     background-color: lightcyan;
+    & > img.logo-1{
+        height: 50px;
+        margin-left: 1rem;
+    }
+    & > nav.navigation{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    & > a.buttton{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: black;
+        }
+    }
+}
