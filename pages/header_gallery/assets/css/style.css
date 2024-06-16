@@ -1,14 +1,22 @@
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body{
     display: flex;
     flex-direction: column;
     height: 200vh;
-    overflow: hidden;
     padding: 10px;
 }
 header.sign1{
@@ -24,11 +32,161 @@ header.sign1{
         display: flex;
         align-items: center;
         gap: 1rem;
-    & > a.buttton{
+    & > a{
         text-decoration: none;
-        font-weight: 600;
-        font-size: 1.1rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        border-radius: 0,5rem;
         color: black;
+        }
+}
+}
+
+header.sign2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcoral;
+    & > img.logo-2{
+        height: 50px;
+        margin-left: 1rem;
+    }
+    & > nav.navigation{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    & > a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        border-radius: 0,5rem;
+        color: black;
+        }
+    & > .button1{
+        border: 1px solid rgb(10, 54, 40)
+    }
+    }
+}
+header.sign3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    & > img.logo-3{
+        height: 50px;
+        margin-left: 1rem;
+    }
+    & > nav.navigation{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    & > span{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        border-radius: 0,5rem;
+        color: black;
+        }
+    }
+    }
+header.sign4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    & > img.logo-4{
+        height: 50px;
+        margin-left: 1rem;
+    }
+    & > nav.navigation{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    & > a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        border-radius: 0,5rem;
+        color: black;
+    }
+    
+    }
+}
+header.sign5{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    padding-top: 20px;
+    flex-direction: column;
+    background-color: black;
+    max-width: 6.5rem;
+    & > img.logo-5{
+        width: 3.5rem;
+        margin-left: 1.5rem;
+        transition: 1s;
+    }
+    & > nav.navigation{
+        margin-bottom: 2rem;
+        gap: 1.5rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 0.5rem;
+         transition: 1s;
+}
+}
+header.sign6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcyan;
+    & > img.logo-6{
+        height: 50px;
+        margin-left: 1rem;
+        animation-name: slideInLeft;
+        animation-duration: 3s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: 1;
+        animation-direction: both;
+        animation-fill-mode: forwards;
+    }
+    & > nav.navigation{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    & > a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        border-radius: 0,5rem;
+        color: black;
+        transition: all 0.5s;
+        position: relative;
+        }
+        & > a:hover{
+        }
+        & > a::after{
+            content: '';
+            opacity: 0;
+            transition: all 0.5s;
+            height: 2px;
+            width: 100%;
+            background-color: #006d65;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        & > a:hover::after{
+            opacity: 1;
         }
     }
 }
