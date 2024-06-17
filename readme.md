@@ -12,7 +12,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This is a repo link to WD-SEATWORK-3. (Optional)
+  This is a repo link to WD-SEATWORK-3.
 </div>
 
 <br />
