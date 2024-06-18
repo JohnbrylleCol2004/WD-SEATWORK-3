@@ -116,4 +116,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| How to Make a Footer in HTML and CSS for Beginners Tutorial - Fully Responsive | Reference on a footer | https://www.youtube.com/watch?v=5WoQm7tR6EA&t=9s |
+| Responsive Footer Design using Html & Css | Reference on another footer | https://www.youtube.com/watch?v=YOb67OKw62s&t=578s |
+| How To Add Footer in Html Website
+ | Reference on another footer | https://www.youtube.com/watch?v=nkZz9DOBzBI&t=4s |
